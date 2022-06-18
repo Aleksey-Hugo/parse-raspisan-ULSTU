@@ -17,7 +17,8 @@ def start(message):
     else:
         bot.send_message(message.from_user.id, 'Для начала выбери или напиши команду "/start"')
 
-
+@bot.message_handler(content_types=['text'])
+def get_text_messages(message):
 def get_group(message):
     group = int(message.text)
     schedule, date = get_schedule(group)
