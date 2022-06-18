@@ -7,11 +7,18 @@ without_slash:
     get_schedule_for_day:
       - "3"
       - "4"
-      - "сегодня"
-      - "завтра"
+      - "Понедельник"
+      - "Вторник"
+      - "Среда"
+      - "Четверг"
+      - "Пятница"
+      - "Суббота"
+     
     get_schedule_for_week:
       - "5"
       - "6"
+      - "Текущая неделя"
+      - "Следущая неделя"
     back_to_start_menu:
       - "7"
   partial:
@@ -21,19 +28,14 @@ without_slash:
     get_schedule_for_week:
       - "текущая неделя"
       - "следующая неделя"
-    change_group:
+    documents:
       - "изменить"
       - "поменять"
     back_to_start_menu:
       - "отмена"
       - "назад"
       - "вернуться"
-    express_gratitude:
-      - "спасиб"
-      - "сенкс"
-      - "благодар"
-      - "спс"
-      - "thanks"
+    
 with_slash:
   start: "start"
   help: "help"
